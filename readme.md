@@ -6,7 +6,7 @@ This project develops a deep learning model to estimate the engagement level of 
 
 The project began with data preprocessing, including data augmentation techniques to enhance the dataset. The model was then designed using a convolutional neural network, as shown in the diagram below:
 
-![CombinedNN](/.readme_resources/CombinedNN.png)
+![CombinedNN](.readme_resources/CombinedNN.png)
 
 Next, hyperparameters were optimized using the TPE sampler. The model was trained with Cross Entropy Loss (with label smoothing) as the criterion and Adam as the optimizer, using a learning rate scheduler. Epochs were adjusted, and model was retrained and evaluated, achieving an **accuracy** of **98.408%** on the test set.
 
@@ -20,7 +20,7 @@ Next, hyperparameters were optimized using the TPE sampler. The model was traine
 
 * Environment requirements: see [requirements.txt](https://github.com/luherod/Deep_Learning/blob/main/requirements.txt)
 
-# Files description:
+## Files description:
 
 * [Desarrollo_de_un_Modelo_de_Deep_Learning_para_la_Estimaci%C3%B3n_del_Engagement_en_Puntos_de%20Interes_Turisticos.pdf](https://github.com/luherod/Deep_Learning/blob/main/Desarrollo_de_un_Modelo_de_Deep_Learning_para_la_Estimaci%C3%B3n_del_Engagement_en_Puntos_de%20Interes_Turisticos.pdf): Project paper file.
 
