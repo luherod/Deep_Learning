@@ -18,6 +18,8 @@ Next, hyperparameters were optimized using the TPE sampler. The model was traine
 
 * PyTorch: [Installation guide](https://pytorch.org/get-started/locally/)
 
+* Python version: 3.12.8
+
 * Environment requirements: see [requirements.txt](https://github.com/luherod/Deep_Learning/blob/main/requirements.txt)
 
 ## Files description:
